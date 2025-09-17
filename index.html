@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura - Gifts That Grow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <div class="logo__icon">🌸</div>
+                    <span class="logo__text">SAKURA</span>
+                </div>
+                <nav class="nav">
+                    <a href="#home" class="nav__link active">Home</a>
+                    <a href="#plants" class="nav__link">Plants</a>
+                    <a href="#bundles" class="nav__link">Gift Bundles</a>
+                    <a href="#about" class="nav__link">About</a>
+                    <a href="#contact" class="nav__link">Contact</a>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero__background">
+            <div class="floating-element floating-element--1">🌿</div>
+            <div class="floating-element floating-element--2">🌸</div>
+            <div class="floating-element floating-element--3">🍃</div>
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">
+                        <span class="typing-text">Gifts That Grow</span>
+                    </h1>
+                    <p class="hero__subtitle">Thoughtful plant gifts with premium sweets & personalized message cards</p>
+                    <button class="btn btn--primary btn--lg hero__cta">
+                        Shop Gift Bundles
+                        <span class="btn__shine"></span>
+                    </button>
+                </div>
+                <div class="hero__videos">
+                    <div class="video-placeholder video-placeholder--main">
+                        <video class="video-placeholder__video" src="assets/document_6219833202681321868.mp4" preload="metadata" autoplay loop muted playsinline></video>
+                        <div class="video-placeholder__overlay">
+                            <div class="play-button">▶</div>
+                            <span class="video-placeholder__label">Founder Story</span>
+                        </div>
+                    </div>
+                    <div class="video-placeholder video-placeholder--small">
+                        <video class="video-placeholder__video" src="assets/document_6219833202681321869.mp4" preload="metadata" poster="assets/bundles.jpg" autoplay loop muted playsinline></video>
+                        <div class="video-placeholder__overlay">
+                            <div class="play-button">▶</div>
+                            <span class="video-placeholder__label">Gift Bundles</span>
+                        </div>
+                    </div>
+                    <div class="video-placeholder video-placeholder--small">
+                        <video class="video-placeholder__video" src="assets/document_6219833202681321870.mp4" preload="metadata" poster="assets/plant-care.jpg" autoplay loop muted playsinline></video>
+                        <div class="video-placeholder__overlay">
+                            <div class="play-button">▶</div>
+                            <span class="video-placeholder__label">Plant Care</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gift Bundles Section -->
+    <section id="bundles" class="bundles">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Premium Gift Collections</h2>
+                <p class="section__subtitle">Carefully curated bundles that bring joy and nature together</p>
+            </div>
+            <div class="bundles__grid">
+                <div class="bundle-card" data-bundle="festive">
+                    <div class="bundle-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563366_y.jpg" alt="Festive Blooms" loading="lazy">
+                    </div>
+                    <div class="bundle-card__content">
+                        <h3 class="bundle-card__title">Festive Blooms Bundle</h3>
+                        <div class="bundle-card__contents">
+                            <span class="bundle-item">Flowering plant</span>
+                            <span class="bundle-item">Kaju Katli (250gm)</span>
+                            <span class="bundle-item">Almond Brittle</span>
+                            <span class="bundle-item">Message Card</span>
+                        </div>
+                        <div class="bundle-card__price">₹1,499</div>
+                        <button class="btn btn--primary bundle-card__btn"   style="color: var(--sakura-pink);">Customize Gift</button>
+                        <button class="bundle-card__details-toggle" style="color: var(--sakura-pink);">What's Included</button>
+                        <div class="bundle-card__details">
+                            <p>Perfect for celebrations! This bundle includes a beautiful flowering plant that will brighten any space, along with premium Kaju Katli sweets and crunchy almond brittle. Complete with a personalized message card.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bundle-card" data-bundle="aglaonema">
+                    <div class="bundle-card__image">
+                        
+                            <img class="image-placeholder__img" src="assets/photo_6219833203137563367_y.jpg" alt="Festive Blooms" loading="lazy">
+                        
+                    </div>
+                    <div class="bundle-card__content">
+                        <h3 class="bundle-card__title">Aglaonema Delight Bundle</h3>
+                        <div class="bundle-card__contents">
+                            <span class="bundle-item">Aglaonema plant</span>
+                            <span class="bundle-item">Soanpapdi (250gm)</span>
+                            <span class="bundle-item">Almond Brittle</span>
+                            <span class="bundle-item">Message Card</span>
+                        </div>
+                        <div class="bundle-card__price">₹1,299</div>
+                        <button class="btn btn--primary bundle-card__btn" style="color: var(--sakura-pink);">Customize Gift</button>
+                        <button class="bundle-card__details-toggle" style="color: var(--sakura-pink);">What's Included</button>
+                        <div class="bundle-card__details">
+                            <p>Our most popular bundle! Features the stunning low-maintenance Aglaonema plant paired with traditional Soanpapdi sweets. Perfect for plant beginners and sweet lovers alike.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bundle-card bundle-card--custom" data-bundle="custom">
+                    <div class="bundle-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563365_y.jpg" alt="Festive Blooms" loading="lazy">
+
+                    </div>
+                    <div class="bundle-card__content">
+                        <h3 class="bundle-card__title" style="color: var(--sakura-green);">Create Your Own Bundle</h3>
+                        <div class="bundle-card__contents">
+                            <span class="bundle-item" style="color: var(--sakura-green);">Choose your plant</span>
+                            <span class="bundle-item" style="color: var(--sakura-green);">Select sweets</span>
+                            <span class="bundle-item" style="color: var(--sakura-green);">Personalized message</span>
+                        </div>
+                        <div class="bundle-card__price" style="color: var(--sakura-green);">Starting ₹999</div>
+                        <button class="btn btn--secondary bundle-card__btn">Build Bundle</button>
+                        <button class="bundle-card__details-toggle" style="color: var(--sakura-green);">How It Works</button>
+                        <div class="bundle-card__details">
+                            <p>Design the perfect gift! Choose from our plant collection, select premium sweets, and add a personal touch with a custom message card. Every bundle is unique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plant Catalog Section -->
+    <section id="plants" class="plants">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Meet Our Plant Family</h2>
+                <p class="section__subtitle">Beautiful, healthy plants perfect for gifting or growing your own collection</p>
+            </div>
+            <div class="plants__grid">
+                
+
+                <div class="plant-card" data-plant="rhoeo">
+                    <div class="plant-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563368_y.jpg" alt="Festive Blooms" loading="lazy">
+
+                        <div class="plant-card__care-icons">
+                            <span class="care-icon" title="Bright indirect light">☀️</span>
+                            <span class="care-icon" title="Moderate watering">💧</span>
+                            <span class="care-icon" title="Pet-friendly">🐾</span>
+                        </div>
+                    </div>
+                    <div class="plant-card__content">
+                        <h3 class="plant-card__name">Rhoeo</h3>
+                        <p class="plant-card__description">Beautiful purple and green striped foliage</p>
+                        <div class="plant-card__care">
+                            <div class="care-detail">
+                                <span class="care-detail__label">Light:</span>
+                                <span class="care-detail__value">Bright indirect light</span>
+                            </div>
+                            <div class="care-detail">
+                                <span class="care-detail__label">Water:</span>
+                                <span class="care-detail__value">Moderate watering</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline plant-card__btn">Add to Bundle</button>
+                    </div>
+                </div>
+
+                <div class="plant-card" data-plant="broken-heart">
+                    <div class="plant-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563369_y.jpg" alt="Festive Blooms" loading="lazy">
+
+                        <div class="plant-card__care-icons">
+                            <span class="care-icon" title="Medium light">🌤️</span>
+                            <span class="care-icon" title="Regular watering">💧</span>
+                            <span class="care-icon" title="Keep away from pets">⚠️</span>
+                        </div>
+                    </div>
+                    <div class="plant-card__content">
+                        <h3 class="plant-card__name">Broken Heart</h3>
+                        <p class="plant-card__description">Unique heart-shaped leaves with distinctive patterns</p>
+                        <div class="plant-card__care">
+                            <div class="care-detail">
+                                <span class="care-detail__label">Light:</span>
+                                <span class="care-detail__value">Medium light</span>
+                            </div>
+                            <div class="care-detail">
+                                <span class="care-detail__label">Water:</span>
+                                <span class="care-detail__value">Regular watering</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline plant-card__btn">Add to Bundle</button>
+                    </div>
+                </div>
+
+                <div class="plant-card" data-plant="oxycardium">
+                    <div class="plant-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563370_y.jpg" alt="Festive Blooms" loading="lazy">
+
+                        <div class="plant-card__care-icons">
+                            <span class="care-icon" title="Low to bright light">🌅</span>
+                            <span class="care-icon" title="Water when dry">💧</span>
+                            <span class="care-icon" title="Keep away from pets">⚠️</span>
+                        </div>
+                    </div>
+                    <div class="plant-card__content">
+                        <h3 class="plant-card__name">Oxycardium</h3>
+                        <p class="plant-card__description">Cascading heart-shaped leaves, perfect for hanging</p>
+                        <div class="plant-card__care">
+                            <div class="care-detail">
+                                <span class="care-detail__label">Light:</span>
+                                <span class="care-detail__value">Low to bright light</span>
+                            </div>
+                            <div class="care-detail">
+                                <span class="care-detail__label">Water:</span>
+                                <span class="care-detail__value">When soil feels dry</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline plant-card__btn">Add to Bundle</button>
+                    </div>
+                </div>
+
+                <div class="plant-card" data-plant="dracaena">
+                    <div class="plant-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563371_y.jpg" alt="Festive Blooms" loading="lazy">
+
+                        <div class="plant-card__care-icons">
+                            <span class="care-icon" title="Bright indirect light">☀️</span>
+                            <span class="care-icon" title="Weekly watering">💧</span>
+                            <span class="care-icon" title="Keep away from pets">⚠️</span>
+                        </div>
+                    </div>
+                    <div class="plant-card__content">
+                        <h3 class="plant-card__name">Dracaena</h3>
+                        <p class="plant-card__description">Elegant upright plant with striking foliage</p>
+                        <div class="plant-card__care">
+                            <div class="care-detail">
+                                <span class="care-detail__label">Light:</span>
+                                <span class="care-detail__value">Bright indirect light</span>
+                            </div>
+                            <div class="care-detail">
+                                <span class="care-detail__label">Water:</span>
+                                <span class="care-detail__value">Weekly watering</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline plant-card__btn">Add to Bundle</button>
+                    </div>
+                </div>
+
+                <!-- <div class="plant-card" data-plant="aglaonema">
+                    <div class="plant-card__image">
+                        <img class="image-placeholder__img" src="assets/photo_6219833203137563367_y.jpg" alt="Festive Blooms" loading="lazy">
+
+                        <div class="plant-card__care-icons">
+                            <span class="care-icon" title="Low light">🌙</span>
+                            <span class="care-icon" title="Weekly watering">💧</span>
+                            <span class="care-icon" title="Pet-friendly">🐾</span>
+                        </div>
+                    </div>
+                    <div class="plant-card__content">
+                        <h3 class="plant-card__name">Aglaonema</h3>
+                        <p class="plant-card__description">The perfect low-maintenance stunner for any space!</p>
+                        <div class="plant-card__care">
+                            <div class="care-detail">
+                                <span class="care-detail__label">Light:</span>
+                                <span class="care-detail__value">Low to medium light</span>
+                            </div>
+                            <div class="care-detail">
+                                <span class="care-detail__label">Water:</span>
+                                <span class="care-detail__value">Weekly watering</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline plant-card__btn">Add to Bundle</button>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Story Section -->
+    <section id="about" class="founder">
+        <div class="container">
+            <div class="founder__content">
+                <div class="founder__text">
+                    <h2 class="section__title">Why Sakura?</h2>
+                    <p class="founder__story">Like the beautiful cherry blossoms that symbolize renewal and growth, we believe every gift should bring lasting joy and connection. Founded with a passion for plants and a love for meaningful gifting, Sakura combines the beauty of nature with the sweetness of tradition.</p>
+                    <div class="founder__promise">
+                        <h3 style="color: var(--sakura-pink);">Our Promise</h3>
+                        <ul class="promise-list">
+                            <li>✅ Healthy, well-cared plants</li>
+                            <li>✅ Premium quality sweets</li>
+                            <li>✅ Personalized message cards</li>
+                            <li>✅ Sustainable packaging</li>
+                            <li>✅ Plant care support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="founder__video">
+                    <div class="video-placeholder video-placeholder--founder">
+                        <video class="video-placeholder__video" src="assets/document_6219833202681321868.mp4" preload="metadata" autoplay loop muted playsinline></video>
+                        <div class="video-placeholder__overlay">
+                            <div class="play-button">▶</div>
+                            <span class="video-placeholder__label">Meet Our Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Care Guide Section -->
+    <section class="care-guide">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" style="color: var(--sakura-green);">Plant Care Made Easy</h2>
+                <p class="section__subtitle" style="color: var(--sakura-green-light);">Simple tips to keep your plants thriving</p>
+            </div>
+            <div class="care-guide__pillars">
+                <div class="care-pillar">
+                    <div class="care-pillar__icon">☀️</div>
+                    <h3 class="care-pillar__title">Light</h3>
+                    <p class="care-pillar__description">Most plants prefer bright, indirect light. Avoid direct sunlight which can scorch leaves.</p>
+                </div>
+                <div class="care-pillar">
+                    <div class="care-pillar__icon">💧</div>
+                    <h3 class="care-pillar__title">Water</h3>
+                    <p class="care-pillar__description">Water when the top inch of soil feels dry. Overwatering is more harmful than underwatering.</p>
+                </div>
+                <div class="care-pillar">
+                    <div class="care-pillar__icon">💚</div>
+                    <h3 class="care-pillar__title">Love</h3>
+                    <p class="care-pillar__description">Talk to your plants, rotate them weekly, and remove dead leaves to keep them happy.</p>
+                </div>
+            </div>
+            <button class="btn btn--secondary care-guide__cta">Download Care Guide</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Happy Plant Parents</h2>
+                <p class="section__subtitle">See what our customers are saying</p>
+            </div>
+            <div class="testimonials__carousel">
+                <div class="testimonial-card active">
+                    <div class="testimonial-card__rating">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                    <p class="testimonial-card__text">"Beautiful plants and the sweets were delicious! Perfect gift combination."</p>
+                    <div class="testimonial-card__author">- Priya S.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__rating">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                    <p class="testimonial-card__text">"My mom loved the Aglaonema bundle. Great packaging and healthy plant."</p>
+                    <div class="testimonial-card__author">- Rahul M.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__rating">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                    <p class="testimonial-card__text">"Easy to care for plants with clear instructions. Will order again!"</p>
+                    <div class="testimonial-card__author">- Sneha K.</div>
+                </div>
+            </div>
+            <div class="testimonials__controls">
+                <button class="testimonial-prev">‹</button>
+                <button class="testimonial-next">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <div class="logo__icon">🌸</div>
+                        <span class="logo__text">SAKURA</span>
+                    </div>
+                    <p class="footer__tagline">Gifts That Grow</p>
+                    <div class="footer__social">
+                        <a href="#" target="_blank" class="social-link">📱</a>
+                        <a href="#" target="_blank" class="social-link">📧</a>
+                        <a href="#" target="_blank" class="social-link">🐦</a>
+                    </div>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#plants" class="footer__link">Plants</a></li>
+                        <li><a href="#bundles" class="footer__link">Gift Bundles</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__title">Plant Care</h4>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Care Guide</a></li>
+                        <li><a href="#" class="footer__link">Plant Tips</a></li>
+                        <li><a href="#" class="footer__link">Troubleshooting</a></li>
+                        <li><a href="#" class="footer__link">Seasonal Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__title">Customer Care</h4>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Shipping Info</a></li>
+                        <li><a href="#" class="footer__link">Returns</a></li>
+                        <li><a href="#" class="footer__link">Track Order</a></li>
+                        <li><a href="#" class="footer__link">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__title">Stay Connected</h4>
+                    <p class="footer__newsletter-text">Get plant care tips and special offers</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email" class="form-control newsletter-input">
+                        <button class="btn btn--primary newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Sakura. All rights reserved. Made with 💚 for plant lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
