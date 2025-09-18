@@ -610,30 +610,67 @@ select.form-control {
 /* Container layout */
 .container {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: var(--space-16);
-  padding-left: var(--space-16);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 var(--space-16);
 }
+
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100vw;
+    width: 100vw;
+  }
+  .hero{
+     width: 100vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 4px;
+    padding-right: 4px;
+    max-width: 100vw;
+    width: 100vw;
+  }
+  .hero{
+     width: 100vw;
+  }
+}
+
 
 @media (min-width: 640px) {
   .container {
     max-width: var(--container-sm);
+  }
+  .hero{
+     width: 100vw;
   }
 }
 @media (min-width: 768px) {
   .container {
     max-width: var(--container-md);
   }
+  .hero{
+     width: 100vw;
+  }
 }
 @media (min-width: 1024px) {
   .container {
     max-width: var(--container-lg);
   }
+  .hero{
+     width: 100vw;
+  }
 }
 @media (min-width: 1280px) {
   .container {
     max-width: var(--container-xl);
+  }
+  .hero{
+     width: 100vw;
   }
 }
 
